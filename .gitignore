@@ -1,0 +1,43 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# -------------------------
+# Data Lake Zones
+# -------------------------
+raw/
+processed/
+curated/
+
+# Allow empty placeholder files (if using .gitkeep)
+!raw/.gitkeep
+!processed/.gitkeep
+!curated/.gitkeep
+
+# Parquet & CSV files
+*.parquet
+*.csv
+
+# -------------------------
+# Logs & temp
+# -------------------------
+*.log
+*.tmp
+*.temp
+
+# -------------------------
+# OS / Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
